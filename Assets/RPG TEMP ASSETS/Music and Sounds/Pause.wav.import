@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dh8p0av5jjkgn"
+path="res://.godot/imported/Pause.wav-ff023743ce93fb0a3ce42b45cf87b03f.sample"
+
+[deps]
+
+source_file="res://Assets/RPG TEMP ASSETS/Music and Sounds/Pause.wav"
+dest_files=["res://.godot/imported/Pause.wav-ff023743ce93fb0a3ce42b45cf87b03f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://cexyfm4eamh3x" path="res://Testing Folder/sprites/tilesets/walls/wooden_door.png" id="4_0qmk6"]
 [ext_resource type="Texture2D" uid="uid://dc0tiig7juh7v" path="res://Testing Folder/sprites/tilesets/walls/wooden_door_b.png" id="5_q4kre"]
 [ext_resource type="Texture2D" uid="uid://37g52k2ia21c" path="res://Testing Folder/sprites/tilesets/floors/wooden.png" id="6_rrfnu"]
-[ext_resource type="Texture2D" uid="uid://cvxx5c0txvg50" path="res://World/GrassBackground.png" id="7_uwe12"]
+[ext_resource type="Texture2D" uid="uid://cvxx5c0txvg50" path="res://Assets/RPG TEMP ASSETS/World/GrassBackground.png" id="7_uwe12"]
 [ext_resource type="PackedScene" uid="uid://beqt50iiccelm" path="res://Testing Folder/scenes/Player.tscn" id="8_as64f"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1tj48"]
