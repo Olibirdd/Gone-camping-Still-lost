@@ -1,6 +1,6 @@
-[gd_scene load_steps=40 format=3 uid="uid://beqt50iiccelm"]
+[gd_scene load_steps=41 format=3 uid="uid://beqt50iiccelm"]
 
-[ext_resource type="Script" path="res://Testing Folder/sprites/scripts/player.gd" id="1_3xppi"]
+[ext_resource type="Script" path="res://Testing Folder/scripts/player.gd" id="1_3xppi"]
 [ext_resource type="Texture2D" uid="uid://ck4riainp8yvi" path="res://Testing Folder/sprites/characters/player.png" id="2_0pmak"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ejfe5"]
@@ -288,6 +288,9 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_47xmf"]
+size = Vector2(13.5, 9)
+
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_3xppi")
 
@@ -297,3 +300,5 @@ animation = &"back_idle"
 frame_progress = 0.501652
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.25, 14)
+shape = SubResource("RectangleShape2D_47xmf")
