@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://c3mlga5yaeuue"]
+
+[ext_resource type="PackedScene" uid="uid://j458kp84mopu" path="res://Testing Folder/scenes/button.tscn" id="1_e1g3i"]
+[ext_resource type="Script" path="res://Testing Folder/scenes/puzzle_seq.gd" id="1_iuwly"]
+
+[node name="puzzle_seq" type="Node2D"]
+script = ExtResource("1_iuwly")
+
+[node name="Node2D" parent="." instance=ExtResource("1_e1g3i")]
+position = Vector2(48, 48)
+
+[node name="Node2D2" parent="." instance=ExtResource("1_e1g3i")]
+position = Vector2(96, 48)
+
+[node name="Node2D3" parent="." instance=ExtResource("1_e1g3i")]
+position = Vector2(144, 48)
+
+[node name="Node2D4" parent="." instance=ExtResource("1_e1g3i")]
+position = Vector2(192, 48)
